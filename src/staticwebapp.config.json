@@ -11,17 +11,17 @@
      ],
      "responseOverrides":{
              "401":{
-               “redirect”: “/login”,
-               “statusCode”: 302
+               "redirect": "/login",
+               "statusCode": 302
              }
            },
-     “auth”: {
-       “identityProviders”: {
-         “azureActiveDirectory”: {
-           “registration”: {
-             “openIdIssuer”: “https://login.microsoftonline.com/72f988bf-86f1-41af-91ab-2d7cd011db47/v2.0",
-             “clientIdSettingName”: “AADClientID”,
-             }, 
+     "auth": {
+       "identityProviders": {
+         "azureActiveDirectory": {
+           "registration": {
+             "openIdIssuer": "https://login.microsoftonline.com/72f988bf-86f1-41af-91ab-2d7cd011db47/v2.0",
+             "clientIdSettingName": "AADClientID"
+             }
           }
        }
      }
